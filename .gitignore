@@ -8,9 +8,10 @@ __pycache__/
 chrome-debug-profile/
 User Data/
 
-# Logs & Fichiers volumineux ou screenshots de test
+# Logs & Fichiers volumineux ou screenshots temporaires à la racine
 logs/*.log
-*.png
+/*.png
+!docs/images/*.png
 search_screen.png
 modal_opened.png
 post_invite_screen.png
