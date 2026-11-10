@@ -1,0 +1,26 @@
+# Environnement local & Secrets
+.env
+*.env
+__pycache__/
+*.pyc
+
+# Chrome Profil Temporaire
+chrome-debug-profile/
+User Data/
+
+# Logs & Fichiers volumineux ou screenshots de test
+logs/*.log
+*.png
+search_screen.png
+modal_opened.png
+post_invite_screen.png
+after_file_chooser.png
+published_post_proof.png
+post_dialog.png
+test_invite.py
+test_one_connect.py
+open_modal.py
+test_file_chooser.py
+inspect_post_btn.py
+inspect_media.py
+curated_news_cache.json

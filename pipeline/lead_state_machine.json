@@ -1,0 +1,23 @@
+{
+  "state_definitions": {
+    "DISCOVERED": "Profil identifié lors du sourcing initial",
+    "QUALIFIED": "Validé par le skill icp-filter (titre, pays, taille entreprise)",
+    "ENRICHED": "Bio et derniers posts extraits par profile-enricher",
+    "PITCH_READY": "Accroche <=300 car. générée par icebreaker-generator",
+    "INVITED": "Invitation envoyée par outreach-dispatcher (avec timestamp)",
+    "ACCEPTED": "Mise en relation acceptée (détectée par inbox-monitor)",
+    "REPLIED": "Prospect ayant répondu au message de connexion",
+    "DISQUALIFIED": "Rejeté par filtre ICP ou opt-out explicite"
+  },
+  "guardrails": {
+    "daily_quota_max": 25,
+    "min_delay_seconds": 90,
+    "max_delay_seconds": 180,
+    "allowed_time_window": {
+      "start": "08:00",
+      "end": "18:00",
+      "timezone": "Africa/Casablanca"
+    }
+  },
+  "leads": []
+}
